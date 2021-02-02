@@ -30,11 +30,11 @@ fruits1: "apple", "banana", "pear";
 fruits2 = ["apple", "banana", "pear"]
 
 -- print! also adds new line
-for m <- [1..7] do
+for m in [1..7] do
        print! m
 end
 
-valid = [(m,c) | m<-[1..7], c<-[0..3], m>c]
+valid = [(m,c) | m in [1..7], c in [0..3], m>c]
 ```
 
 
