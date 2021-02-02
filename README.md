@@ -36,6 +36,8 @@ end
 
 valid = [(m,c) | m in [1..7], c in [0..3], m>c]
 
+valid = [(m,c) | m in [1..7], c in [0..3], m>c, c in? [0,5]]
+
 [EXPR | VAR in SET, PREDICATE]
 ```
 
