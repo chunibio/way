@@ -35,6 +35,8 @@ for m in [1..7] do
 end
 
 valid = [(m,c) | m in [1..7], c in [0..3], m>c]
+
+[EXPR | VAR in SET, PREDICATE]
 ```
 
 
