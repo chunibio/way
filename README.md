@@ -1,2 +1,7 @@
-# way
-This is the Way (Programming Language)
+# Way
+```
+       ___  
+      /  .\ 
+     /  =__|
+    /    ||
+```
